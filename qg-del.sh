@@ -8,7 +8,7 @@ fi
 
 echo deleting $TODEL locally and remotely
 
-if [ "$CUR" == '$TODEL']; then 
+if [ "$CUR" == '$TODEL' ]; then 
     echo "Switching to master so as to be able to delete the current branch"
     git checkout master
 fi
